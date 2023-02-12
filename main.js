@@ -18,4 +18,22 @@ const fontFamily = getComputedStyle(document.documentElement).getPropertyValue(
 );
 trim();
 
-const defaultOptions = {};
+const defaultOptions = {
+  chart: {
+    toolbar: { show: false },
+    selection: { enabled: false },
+    zoom: { enabled: false },
+    width: "100%",
+    height: 150,
+    offsetY: 8,
+  },
+
+  stroke: { lineCap: "round" },
+  dataLabels: { enabled: false },
+  legend: { show: false },
+  states: {
+    hover: {
+      filter: { type: "none" },
+    },
+  },
+};
