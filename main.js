@@ -94,3 +94,14 @@ plotOptions: {
 yaxis: {
   show: false;
 }
+
+xaxis: {
+  labels: {
+    floating: true;
+    show: true;
+    style: {
+      fontFamily: fontFamily;
+      color: colorLabel;
+    }
+  }
+}
