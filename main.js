@@ -104,4 +104,23 @@ xaxis: {
       color: colorLabel;
     }
   }
+  axisBorder: {
+    show: false;
+  }
+
+  axisTicks: {
+    show: false;
+  }
+
+  crosshairs: {
+    show: false;
+  }
+
+  categories: {
+    ["Jan"];
+  }
 }
+
+var barChart = new ApexCharts(document.querySelector("#bar-chart"), barOptions);
+
+barChart.render();
